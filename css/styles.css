@@ -393,7 +393,7 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .display-1 {
@@ -2897,6 +2897,8 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: bold;
   color: #3977e3;
   text-decoration: none;
 }
@@ -4519,6 +4521,7 @@ input[type=button].btn-block {
 
 .accordion > .card {
   overflow: hidden;
+  background-color: var(--primary);
 }
 .accordion > .card:not(:last-of-type) {
   border-bottom: 0;
