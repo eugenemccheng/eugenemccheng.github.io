@@ -1,7 +1,7 @@
 /*CUSTOM CSS*/
 
 li {
-    list-style-type: none;
+    
 }
 
 a {
@@ -45,11 +45,35 @@ a {
     text-decoration: none;
 }
 
+.nv-item{
+    list-style-type: none;
+}
+
 .nv-link{
     color: black;
+    list-style-type: none;
 }
 
 .nv-link:hover{
     color: gray;
     text-decoration: none;
+}
+
+
+/*----------------------------------------------------ABOUT----------------------------------------------------*/
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px){
+
+    .three-col-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
 }
