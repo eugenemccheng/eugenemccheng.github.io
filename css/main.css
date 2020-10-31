@@ -1,0 +1,55 @@
+/*CUSTOM CSS*/
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-nav-hero{
+    position: relative;
+    background: url(../assets/img/hero_background_2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+/*----------------------------------------------------NAVIGATION----------------------------------------------------*/
+
+.nv-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nv-logo{
+    color: black;
+}
+
+.nv-logo:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.nv-link{
+    color: black;
+}
+
+.nv-link:hover{
+    color: gray;
+    text-decoration: none;
+}
